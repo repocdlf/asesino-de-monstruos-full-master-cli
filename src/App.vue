@@ -1,28 +1,33 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+      <Juego msg="Bienvenido a Asesino de monstruos Vue-cli App"/>
+    </div>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Juego from './components/Juego.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Juego
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
 }
+
+.controls {
+      margin-top: 30px;
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #ccc;
+      box-shadow: 0px 3px 6px #ccc;
+}
+
+
 </style>
